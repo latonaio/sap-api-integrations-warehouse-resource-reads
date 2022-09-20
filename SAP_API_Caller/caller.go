@@ -56,7 +56,7 @@ func (c *SAPAPICaller) Header(eWMWarehouse, eWMResource string) {
 }
 
 func (c *SAPAPICaller) callWarehouseSrvAPIRequirementHeader(api, eWMWarehouse, eWMResource string) (*sap_api_output_formatter.Header, error) {
-	url := strings.Join([]string{c.baseURL, "WarehouseResource", api}, "/")
+	url := strings.Join([]string{c.baseURL, "api_warehouse_resource_2/srvd_a2x/sap/warehouseresource/0001", api}, "/")
 	param := c.getQueryWithHeader(map[string]string{}, eWMWarehouse, eWMResource)
 
 	resp, err := c.requestClient.Request("GET", url, param, "")

@@ -15,7 +15,7 @@
 		"EWMResourceLogonDateTime": null,
 		"EWMRsceIsLoggedOntoByCurUser": false
 	},
-	"api_schema": "api_warehouse_resource_2/srvd_a2x/sap/warehouseresource/0001",
+	"api_schema": "SAPWarehouseResourceReads",
 	"accepter": ["Header"],
 	"EWMWarehouse": "1050",
 	"deleted": false

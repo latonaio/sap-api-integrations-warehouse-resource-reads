@@ -44,7 +44,7 @@ accepter において 下記の例のように、データの種別（＝APIの�
 ここでは、"Header" が指定されています。
 
 ```
-	"api_schema": "api_warehouse_resource_2/srvd_a2x/sap/warehouseresource/0001",
+	"api_schema": "SAPWarehouseResourceReads",
 	"accepter": ["Header"],
 	"EWMWarehouse": "1050",
 	"deleted": false
@@ -55,7 +55,7 @@ accepter において 下記の例のように、データの種別（＝APIの�
 全データを取得する場合、sample.json は以下のように記載します。  
 
 ```
-	"api_schema": "api_warehouse_resource_2/srvd_a2x/sap/warehouseresource/0001",
+	"api_schema": "SAPWarehouseResourceReads",
 	"accepter": ["All"],
 	"EWMWarehouse": "1050",
 	"deleted": false
